@@ -1,0 +1,47 @@
+.footer-primary {
+	padding: 50px 0;
+	background-color: $body-copy-grey;
+	width: 100%;
+
+	.footer-links, .footer-logo {
+		img {
+			height: 45px;
+			margin: 15px;
+		}
+
+		&.footer-right, &.footer-left {
+			text-align: center;
+		}
+
+		@include grid-media($md-grid) {
+			&.footer-right {
+				text-align: left;
+			}
+
+			&.footer-left {
+				text-align: right;
+			}
+		}
+	}
+}
+
+.footer-secondary {
+	padding: 5px 0;
+	background-color: $white;
+
+ 	p {
+		margin-bottom: 0px;
+		font-size: 14px;
+ 	}
+
+	br {
+		display: block;
+	}
+
+	@include grid-media($md-grid) {
+		br {
+			display: none;
+		}
+	}
+
+}

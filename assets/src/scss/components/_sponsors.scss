@@ -1,0 +1,19 @@
+.sponsor {
+  @at-root {
+    #{&}-thumbnail, #{&}-content {
+      display: table-cell;
+      width: 30%;
+      vertical-align: middle;
+
+      img {
+        width: 100%;
+        padding-right: 20px;
+      }
+    }
+
+    #{&}-content {
+      width: 70%;
+    }
+
+  }
+}

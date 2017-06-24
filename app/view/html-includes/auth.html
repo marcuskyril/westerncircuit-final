@@ -1,0 +1,7 @@
+<script>
+  firebase.auth().onAuthStateChanged(function(currentUser) {
+    if (!currentUser) {
+      window.location = './login';
+    }
+  });
+</script>

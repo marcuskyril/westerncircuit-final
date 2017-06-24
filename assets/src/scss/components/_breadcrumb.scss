@@ -1,0 +1,39 @@
+.breadcrumb {
+	padding: 0;
+	margin-bottom: 55px;
+	
+	display: none;
+
+	list-style: none;
+
+	a {
+		font-weight: 700;
+		color: $caption-grey;
+		text-decoration: none;
+	}
+
+	@include grid-media($md-grid) {
+		display: block;
+	}
+}
+
+.breadcrumb li {
+	display: inline;
+
+	&:first-child {
+		a {
+			color: $blue;
+		}
+	}
+}
+
+.breadcrumb li+li:before {
+	content: '\f054';
+
+	padding: 0px 8px;
+
+	color: $caption-grey;
+	font-family: $font-fa;
+	font-size: 10px;
+	font-weight: 100;
+}

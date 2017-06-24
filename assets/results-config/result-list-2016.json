@@ -1,0 +1,124 @@
+{
+  "President's Cup": [{
+    "name": "Overall Race Results",
+    "location": "./assets/results/results_2016/day_2/Presidents_Cup_2016_SF2_Updated.pdf"
+  }],
+  "Inter-Tertiary Windsurfing Cup": [{
+    "name": "Overall Race Results",
+    "location": "./assets/results/results_2016/day_2/Presidents_Cup_2016_SF2_Updated.pdf"
+  }],
+  "IRC A": [{
+    "name": "Overall Race Results",
+    "location": "./assets/results/results_2016/overall/IRC A Overall.pdf"
+  }, {
+    "name": "Day 1 Results",
+    "location": "./assets/results/results_2016/day_1/IRC A Day 1.pdf"
+  }, {
+    "name": "Day 2 Results",
+    "location": "./assets/results/results_2016/day_2/IRC A Day 2.pdf"
+  }, {
+    "name": "Day 3 Results",
+    "location": "./assets/results/results_2016/day_3/IRC A Day 3.pdf"
+  }],
+  "IRC B": [{
+    "name": "Overall Race Results",
+    "location": "./assets/results/results_2016/overall/IRC B Overall.pdf"
+  }, {
+    "name": "Day 1 Results",
+    "location": "./assets/results/results_2016/day_1/IRC B Day 1.pdf"
+  }, {
+    "name": "Day 2 Results",
+    "location": "./assets/results/results_2016/day_2/IRC B Day 2.pdf"
+  }, {
+    "name": "Day 3 Results",
+    "location": "./assets/results/results_2016/day_3/IRC B Day 3.pdf"
+  }],
+  "SB20": [{
+    "name": "Overall Race Results",
+    "location": "./assets/results/results_2016/overall/SB20 Overall.pdf"
+  }, {
+    "name": "Day 1 Results",
+    "location": "./assets/results/results_2016/day_1/SB20 Day 1.pdf"
+  }, {
+    "name": "Day 2 Results",
+    "location": "./assets/results/results_2016/day_2/SB20 Day 2.pdf"
+  }, {
+    "name": "Day 3 Results",
+    "location": "./assets/results/results_2016/day_3/SB20 Day 3.pdf"
+  }],
+  "PY": [{
+    "name": "Overall Race Results",
+    "location": "./assets/results/results_2016/overall/PY Day 3 overall.pdf"
+  }, {
+    "name": "Day 1 Results",
+    "location": "./assets/results/results_2016/day_1/PY Day 1.pdf"
+  }, {
+    "name": "Day 2 Results",
+    "location": "./assets/results/results_2016/day_2/PY Day 2.pdf"
+  }, {
+    "name": "Day 3 Results",
+    "location": "./assets/results/results_2016/day_3/PY Day 3.pdf"
+  }],
+  "Trimaran (Multihull)": [{
+      "name": "Overall Race Results",
+      "location": "./assets/results/results_2016/overall/Multihull Overall.pdf"
+  }, {
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Multihull Day 1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Multihull Day 2.pdf"
+  }, {
+      "name": "Day 3 Results",
+      "location": "./assets/results/results_2016/day_3/Multihull Day 3.pdf"
+  }],
+  "Novice (Men)": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Novice_Men_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Novice_Men_Day_2.pdf"
+  }],
+  "Novice (Women)": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Novice_Women_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Novice_Women_Day_2.pdf"
+  }],
+  "Intermediate (Men)": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Intermediate_Men_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Intermediate_Men_Day_2.pdf"
+  }],
+  "Intermediate (Women)": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Intermediate_Women_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Intermediate_Women_Day_2.pdf"
+  }],
+  "Intermediate (Mixed)": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Intermediate_Mixed_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Intermediate_Mixed_Day_2.pdf"
+  }],
+  "RSOne": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/RSOne_Mixed_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/RSOne_Mixed_Day_2.pdf"
+  }],
+  "Access 2.3": [{
+      "name": "Day 1 Results",
+      "location": "./assets/results/results_2016/day_1/Access_2.3_Sailability_Day_1.pdf"
+  }, {
+      "name": "Day 2 Results",
+      "location": "./assets/results/results_2016/day_2/Access_2.3_Sailability_Day_2.pdf"
+  }]
+}

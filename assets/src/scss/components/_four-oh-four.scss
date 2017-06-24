@@ -1,0 +1,23 @@
+
+.four-oh-four-container {
+    display: flex;
+		position: relative;
+    width: 100%;
+    text-align: center;
+
+		.error-code {
+			font-size: 96px;
+  		color: $body-copy-grey;
+		}
+
+		.error-text {
+	    align-self: center;
+	    position: absolute;
+	    width: 100%;
+	    padding: 50;
+		}
+
+		a {
+			font-weight: 700;
+		}
+}

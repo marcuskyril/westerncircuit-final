@@ -1,0 +1,150 @@
+.classic-form {
+	@at-root {
+		#{&}__btn-group {
+			padding-top: 30px;
+			text-align: center;
+		}
+
+		#{&}__field {
+			width: 100%;
+			margin-bottom: 15px;
+
+			@include grid-media($md-grid) {
+				width: calc(50% - 15px);
+				float: left;
+
+				&:first-child {
+					margin-right: 15px;
+				}
+
+				&:last-child {
+					margin-left: 15px;
+				}
+			}
+
+			&.extended {
+				@include grid-media($md-grid) {
+					width: calc(100% - 185px);
+				}
+			}
+
+			&.has-error {
+				input {
+					border: solid 1px $red;
+				}
+
+				.classic-form__field-error {
+					display: block;
+				}
+			}
+		}
+
+		#{&}__field-error {
+			display: none;
+			padding-top: 3px;
+
+			font-size: 14px;
+			font-style: italic;
+			color: $red;
+		}
+	}
+
+	.btn {
+		/* padding: 12px 60px; */
+		padding: 9px 60px;
+	}
+
+	.nice-select {
+		width: 100%;
+
+		border-radius: 2px;
+		background: $grey--lightest;
+		font-family: $font-pri;
+		font-size: 16px;
+		color: $caption-grey;
+
+		.current {
+			font-style: italic;
+		}
+	}
+}
+
+.nice-select.open .list {
+		max-height: 250px;
+		overflow-y: scroll;
+}
+
+label {
+	display: block;
+	padding-bottom: 7px;
+
+	font-weight: 700;
+	color: $caption-grey;
+}
+
+select {
+	// display: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+	padding: 10px 17px 10px 20px;
+	border: solid 1px $divider-grey;
+	width: 100%;
+
+	background: $grey--lightest;
+	font-family: $font-pri;
+	font-size: 16px;
+	color: $footer-bg-grey;
+	outline: 0;
+	border-radius: 2px;
+
+	&:focus {
+		box-shadow: 0px 0px 19px 2px rgba(233,237,245,0.58);
+		border: solid 1px darken($divider-grey, 5);
+	}
+}
+
+textarea {
+	resize: none;
+}
+
+.field-group {
+	margin-bottom: 15px;
+}
+
+.input-group .btn {
+	margin-top: 15px;
+  padding: 10px 30px;
+	background-color: $caption-grey;
+	box-shadow: 0 3px $grey--lightest;
+
+	&:hover {
+		background-color: $grey--light;
+	}
+}
+
+.input-group input, .nice-select {
+    width: 100%;
+    margin: 5px 0px;
+    color: #222;
+    background: $grey--lightest;
+    border-radius: 2px;
+
+		&::placeholder {
+			font-style: italic;
+			color: $caption-grey;
+		}
+}
+
+.nice-select {
+	font-family: $font-pri;
+	font-size: 16px;
+
+	&:after {
+		font-size: 18px;
+    color: $caption-grey;
+	}
+}

@@ -1,0 +1,59 @@
+// Off-canvas controls for mobile header.
+.off-canvas-effect {
+
+	main,
+	footer {
+		filter: blur(3px);
+	}
+}
+
+.off-canvas {
+	padding-top: 10px;
+
+	.is-active {
+
+		.fa-bars:before {
+			content: '\f00d';
+		}
+		
+	}
+
+	@at-root {
+		#{&}__control {
+			padding-right: 20px;
+
+			font-size: 18px;
+
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+
+		#{&}__content {
+			position: absolute;
+			z-index: 100;
+			left: 0;
+			right: 0;
+
+			padding: 30px 0;
+
+			background: rgba(#1d212d, .95);
+			transition: transform .3s;
+			transform: translate3d(0, calc(-100% - 85px), 0); // height of the off-canvas item + header
+			
+			&.is-opened {
+				transform: translate3d(0, 0, 0);
+			}
+		}
+
+		#{&}__menu {
+			font-size: 18px;
+			color: $white;
+		}
+
+		#{&}__search {
+			background: rgba($nav-grey, .95);
+		}
+	}
+}
+

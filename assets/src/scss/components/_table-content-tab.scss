@@ -1,0 +1,41 @@
+// .table-content-tab {
+//
+// 	.table-content-tab__hdr {
+// 		background: $bg-grey;
+//
+// 		@include grid-media($sm-grid) {
+// 			overflow: hidden;
+// 		}
+//
+// 		.table-content-tab__item {
+// 			padding: 18px 0 15px;
+// 			filter:contrast(0) brightness(1.7);
+//
+// 			span {
+//
+// 				display: none;
+//
+// 				@include grid-media($md-grid) {
+// 					display: block;
+// 				}
+// 			}
+// 		}
+//
+// 		.active {
+// 			background: $white;
+// 			filter: none;
+// 		}
+//
+// 		&:hover {
+// 			cursor: pointer;
+// 		}
+// 	}
+//
+// 	.table-content-tab__details {
+// 		display: none;
+//
+// 		&.active {
+// 			display: block;
+// 		}
+// 	}
+// }

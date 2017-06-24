@@ -1,0 +1,20 @@
+// Tablet to desktop
+
+$sm-grid: (
+	columns: $columns-sm,
+	gutter: $gutter-sm,
+	media: $bp-sm
+);
+
+$md-grid: (
+  columns: $columns-md,
+  gutter: $gutter-md,
+  media: $bp-md
+);
+
+
+$lg-grid: (
+  columns: $columns-lg,
+  gutter: $gutter-lg,
+  media: $bp-lg
+);

@@ -1,0 +1,34 @@
+.landing__banner-bar {
+	background: url('../../../assets/img/landing-bar.jpg');
+	background-size: cover;
+	padding: 28px 0;
+	margin: 100 0 30px;
+
+	@include grid-media($lg-grid) {
+		margin: 100 0 50px;
+	}
+
+	.breadcrumb {
+		margin: 0;
+
+		li:first-child {
+			a {
+				color: $yellow;
+			}
+		}
+
+		a {
+			color: $white;
+		}
+	}
+
+	.breadcrumb li+li:before {
+		color: $white;
+	}
+
+	h1 {
+		color: $white;
+		margin: 0;
+	}
+
+}

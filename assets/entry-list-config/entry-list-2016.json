@@ -1,0 +1,156 @@
+{
+    "IRC A": [{
+        "sailID": "SG 1912",
+        "yachtName": "Petit Bateau",
+        "skipperName": "Esben Poulsson"
+    }, {
+        "sailID": "SG 4321",
+        "yachtName": "Zanzibar",
+        "skipperName": "Jonathan Mahony"
+    }, {
+        "sailID": "GBR 1856 L",
+        "yachtName": "Rikki Tikki Tavi",
+        "skipperName": "Chris Furness"
+    }],
+    "IRC B": [{
+        "sailID": "GER 408",
+        "yachtName": "Born in Fire",
+        "skipperName": "Pascal Radue"
+    }, {
+        "sailID": "SIN 333",
+        "yachtName": "Waka Tere",
+        "skipperName": "Kurt Metzger"
+    }, {
+        "sailID": "SIN 852",
+        "yachtName": "Shoon Fung Too",
+        "skipperName": "Gordon Maxted"
+    }, {
+        "sailID": "",
+        "yachtName": "SMUmad",
+        "skipperName": "Koh Ling Ying"
+    }, {
+        "sailID": "",
+        "yachtName": "SMUve",
+        "skipperName": "Collin Lim Han Yang"
+    }],
+    "PY": [{
+        "sailID": "415",
+        "yachtName": "Night Train",
+        "skipperName": "Merry, Andrew Paul"
+    }, {
+        "sailID": "SIN 295",
+        "yachtName": "Ambindi",
+        "skipperName": "Scott Lip"
+    }, {
+        "sailID": "SIN 911",
+        "yachtName": "Arbudhen",
+        "skipperName": "Michael Teo/Desmond Seah"
+    }, {
+        "sailID": "SIN 5033",
+        "yachtName": "Sapphire Star",
+        "skipperName": "Simon Connors"
+    }, {
+        "sailID": "SIN 818",
+        "yachtName": "O'Blueyes",
+        "skipperName": "Glen O'Grady"
+    }, {
+        "sailID": "",
+        "yachtName": "Xtra Mile",
+        "skipperName": "Low Chin Nam"
+    }],
+    "SB 20": [{
+        "sailID": "SIN 3294",
+        "yachtName": "Du Mei Dai",
+        "skipperName": "Jayant Dhobley"
+    }, {
+        "sailID": "3227",
+        "yachtName": "Glasgow Kiss",
+        "skipperName": "Nils Razmilovic"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF",
+        "skipperName": "Zandra Chew"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF",
+        "skipperName": "Lynette Tung"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF",
+        "skipperName": "Xu Yuanzhen"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF",
+        "skipperName": "Anthony Kiong Lye Ming"
+    }, {
+        "sailID": "SIN 3031",
+        "yachtName": "Zorro",
+        "skipperName": "Nicholas Cocks"
+    }, {
+        "sailID": "",
+        "yachtName": "Pocapena",
+        "skipperName": "Christian Englert"
+    }, {
+        "sailID": "",
+        "yachtName": "Bandit",
+        "skipperName": "Teo Yee Kang, Ryan"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF",
+        "skipperName": "Gaetan Verhegge"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF 7",
+        "skipperName": "Alexi Lim"
+    }, {
+        "sailID": "",
+        "yachtName": "SMUxy",
+        "skipperName": "Alison Chia"
+    }, {
+        "sailID": "IRL 3271",
+        "yachtName": "Walababy",
+        "skipperName": "Steven Manning"
+    }, {
+        "sailID": "",
+        "yachtName": "Slippery When Wet",
+        "skipperName": "Lim Ja Yee"
+    }, {
+        "sailID": "3361",
+        "yachtName": "Tara",
+        "skipperName": "Nick Burfoot"
+    }, {
+        "sailID": "",
+        "yachtName": "SSF 8",
+        "skipperName": "Tan Wei Chong"
+    }, {
+        "sailID": "",
+        "yachtName": "Scumbag",
+        "skipperName": "Jonathan Yeo"
+    }],
+
+    "Trimaran (Multihull)": [{
+        "sailID": "",
+        "yachtName": "Hot Toad",
+        "skipperName": "Andrew Young"
+    }, {
+        "sailID": "750",
+        "yachtName": "Cicak",
+        "skipperName": "Tim Hill"
+    }, {
+        "sailID": "100",
+        "yachtName": "Eeepai",
+        "skipperName": "Michael Chia"
+    }, {
+        "sailID": "",
+        "yachtName": "M23",
+        "skipperName": "David Stanton"
+    }, {
+        "sailID": "",
+        "yachtName": "Cosair Dash FT",
+        "skipperName": "Alice Lim"
+    }, {
+        "sailID": "",
+        "yachtName": "The Dash",
+        "skipperName": "Deborah Barker"
+    }]
+}

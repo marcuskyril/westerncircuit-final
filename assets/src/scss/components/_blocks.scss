@@ -1,0 +1,130 @@
+#sec-content,
+#intro,
+#gallery {
+  &.row {
+    position: relative;
+  }
+}
+
+#gallery .content {
+  background: $body-copy-grey;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+
+  a:hover {
+    color: $yellow;
+  }
+}
+
+#sec-content,
+#intro,
+#gallery {
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-3,
+  .col-lg-6,
+  .col-sm-12 {
+    float: left;
+    margin: 0;
+  }
+
+  @media screen and (max-width: $bp-md) {
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  color: $caption-grey;
+  background: $white;
+  display: block;
+  text-align: center;
+
+  &:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 0;
+    padding-top: 100%;
+  }
+
+  &:hover {
+    border: 20px solid $divider-grey;
+    transition: all 0.2s ease-out;
+  }
+
+  a {
+    color: $blue;
+  }
+
+  a:hover {
+    color: $body-copy-grey;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+
+    @include grid-media($md-grid) {
+  		font-size: 20px;
+  	}
+  }
+
+}
+
+.block-img {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 42%;
+  background-size: cover;
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+}
+
+#sec-img {
+  background-image: url('../../../assets/img/carousel/carousel_img_3.jpg');
+}
+
+#intro-img {
+  background-image: url('../../../assets/img/carousel/carousel_img_4.jpg');
+}
+
+#img-3 {
+  background-image: url('../../../assets/img/carousel/carousel_img_1.jpg');
+}
+
+#img-rm {
+  background-image: url('../../../assets/img/raffles-marina-lighthouse.jpg');
+}
+
+#img-smu {
+  background-image: url('../../../assets/img/The_2nd_Asia_Pacific_Student_Cup.png');
+}
+
+.text-wrapper {
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}

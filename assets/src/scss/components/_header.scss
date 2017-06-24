@@ -1,0 +1,35 @@
+.menu-overlay {
+	opacity: 1 !important;
+	visibility: visible !important;
+	height: 100vh !important;
+	width: 100%;
+
+	background: $caption-grey;
+	background-color: $white;
+
+	transition: visibility, opacity 0.4s;
+	-webkit-transition: visibility, opacity 0.4s;
+
+  z-index: 1000;
+  position: fixed;
+  top: 100;
+  left: 0;
+}
+
+.hidden {
+	opacity: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+#overlay a {
+  color: #B1B2B4;
+
+	&:hover {
+		color: $fuck-yeah-red;
+	}
+}
+
+.accordion__header.no-arrow:after {
+    content: '';
+}

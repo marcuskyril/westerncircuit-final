@@ -1,0 +1,23 @@
+.entry {
+  margin-bottom: 30px;
+
+  h2 {
+    text-transform: uppercase;
+  }
+}
+
+.entry-list {
+  table td:first-child {
+    width: 20%;
+  }
+
+  table td:nth-child(2) {
+    width: 40%;
+  }
+}
+
+.result-list, .media-list, .documentation-list {
+  table td:first-child {
+    width: 70%;
+  }
+}

@@ -1,0 +1,89 @@
+.accordion {
+	margin-bottom: 5px;
+
+	&.is-opened {
+		> .accordion__body {
+			max-height: 10000px; // Just a random height that we'll never exceed.
+		}
+
+		> .accordion__header {
+
+			&:after {
+				transform: rotate(90deg);
+			}
+		}
+	}
+
+	@at-root {
+		#{&}__header-menu {
+			background: $white !important;
+		}
+
+		#{&}__header {
+			position: relative;
+
+			display: block;
+			padding: 15px;
+
+			background: #dedee4;
+			color: $caption-grey;
+			font: 16px $font-pri;
+			font-weight: 700;
+			transition: background .3s ease-in-out;
+
+			&:hover {
+				cursor: pointer;
+				// background: $grey--lightest;
+			}
+
+			&:after {
+				content: '\f054';
+
+				position: absolute;
+				right: 20px;
+				top: 25px;
+
+				margin: auto;
+
+				font-family: $font-fa;
+				transition: transform .2s ease-in-out;
+			}
+
+			&.no-arrow-on-md-up {
+
+				&:after {
+					@include grid-media($md-grid) {
+						display: none;
+			        }
+			    }
+			}
+		}
+
+		#{&}__body {
+			display: block;
+			max-height: 0;
+			border-top: 0;
+
+			overflow: hidden;
+			transition: max-height .5s ease-in-out;
+		}
+
+		#{&}__content {
+			padding: 15px;
+		}
+	}
+}
+
+.accordion__header.nested-header {
+	background: #fafafb;
+	color: #333;
+}
+
+.accordion__body.nested-body {
+	background: $white;
+	border: none;
+}
+
+.accordion__content:last-child {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.organizer {
+  @at-root {
+
+    #{&}-container {
+      margin-bottom: 30px;
+      text-align: center;
+
+      a, p, li {
+        color: $body-copy-grey;
+        font-weight: 700;
+        margin-bottom: 0;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      ul {
+        margin: 20px 0;
+
+        li {
+          margin: 10px 0;
+        }
+
+      }
+
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.field-group__filters {
+	overflow: hidden;
+
+	.field-group__checkbox {
+		clear: both;
+		border-right: none;
+		margin-right: 0;
+
+		label, input[type=checkbox] {
+			float: left;
+		}
+
+		label {
+			margin: 0 20px 0 5px;
+			padding: 0;
+		}
+
+		input[type=checkbox] {
+			width: 20px;
+			height: 20px;
+		}
+
+		@include grid-media($md-grid) {
+			float: left;
+			border-right: 1px solid $divider-grey;
+			margin-right: 20px;
+			clear: none;
+		}
+	}
+
+	.field-group__checkbox:last-child {
+		border-right: none;
+		margin-right: 0;
+	}
+}

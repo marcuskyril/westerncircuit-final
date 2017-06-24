@@ -1,0 +1,62 @@
+
+.hero-container, .four-oh-four-container {
+	height: 100vh;
+	overflow: hidden;
+
+	.hero-img {
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url('../../../assets/img/mobile-water.jpg');
+		opacity: 0.5;
+
+		@include grid-media($md-grid) {
+			display: none;
+			opacity: 1;
+		}
+	}
+
+	.fullscreen-bg__video {
+
+		display: none;
+
+		@include grid-media($md-grid) {
+			width: 100vw;
+	    height: 100vh;
+	    object-fit: cover;
+	    position: fixed;
+	    left: 0px;
+	    top: 0px;
+	    z-index: -1;
+			display: block;
+		}
+	}
+
+	.hero-logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+}
+
+.hero-text {
+	z-index: 50;
+	top: 45%;
+	position: absolute;
+	right: 20;
+	color: black;
+	opacity: 0.6;
+	text-align: right;
+}
+
+h1#hero-text {
+	font-weight: 300;
+}

@@ -1,0 +1,98 @@
+.card {
+	margin-bottom: 40px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	padding: 20px;
+
+	@at-root {
+		#{&}-horizontal {
+			display: table;
+		}
+	}
+
+	&.organizer-wrapper {
+    padding: 20px;
+		margin: 0;
+		box-shadow: none;
+
+		img {
+			height: 150px;
+		}
+
+		.organizer-content {
+			margin-top: 20px;
+			text-align: center;
+		}
+	}
+
+	&:hover {
+		box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.12);
+	}
+
+	.category {
+		font-size: 14px;
+	}
+
+	@at-root {
+		#{&}__body {
+			padding: 25px;
+			background: $white;
+		}
+
+		#{&}__details + #{&}__title {
+			margin: 15px 0 20px;
+		}
+
+		#{&}__title {
+			font-family: $font-pri;
+			font-weight: 900;
+			font-size: 18px;
+			color: $nav-grey;
+		}
+
+		#{&}__details {
+			@include grid-container;
+			color: $caption-grey;
+		}
+
+		#{&}__date {
+			font-size: 15px;
+		}
+
+		#{&}__action {
+			color: $blue;
+			font-size: 18px;
+			font-weight: 700;
+
+			.fa {
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+.card-collection {
+	overflow-x:auto;
+
+	&::-webkit-scrollbar {
+		width: 0px;  /* remove scrollbar space */
+		background: transparent;  /* optional: just make scrollbar invisible */
+	}
+
+	@at-root {
+		// Defaults to hold 3 cards.
+		#{&}__group {
+			min-width: calc(316px * 3); // width of each card (300px) + margin of each card (15px) + some offset for shadows.
+
+			@include grid-media($lg-grid) {
+				max-width: none;
+			}
+
+			.card {
+				@media screen and (max-width: $bp-lg) {
+					width: 300px;
+				}
+			}
+		}
+	}
+}

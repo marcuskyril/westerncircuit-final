@@ -1,0 +1,238 @@
+[{
+    "category": "President's Cup",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A,B SMU President Cup.pdf"
+    }]
+}, {
+    "category": "IRC A",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results overall.pdf"
+    }, {
+        "name": "Race 1",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 1.pdf"
+    }, {
+        "name": "Race 2",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 2.pdf"
+    }, {
+        "name": "Race 3",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 3.pdf"
+    }, {
+        "name": "Race 4",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 4.pdf"
+    }, {
+        "name": "Race 5",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 5.pdf"
+    }, {
+        "name": "Race 6",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 6.pdf"
+    }, {
+        "name": "Race 7",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 7.pdf"
+    }, {
+        "name": "Race 8",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC A Results Race 8.pdf"
+    }]
+}, {
+    "category": "IRC B",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 IRC B Results overall.pdf"
+    }, {
+        "name": "Race 1",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 1.pdf"
+    }, {
+        "name": "Race 2",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 2.pdf"
+    }, {
+        "name": "Race 3",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 3.pdf"
+    }, {
+        "name": "Race 4",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 4.pdf"
+    }, {
+        "name": "Race 5",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 5.pdf"
+    }, {
+        "name": "Race 6",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 6.pdf"
+    }, {
+        "name": "Race 7",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 7.pdf"
+    }, {
+        "name": "Race 8",
+        "location": "./assets/results/results_2015/./assets/results/results_2015/18WCSR2015 IRC A Results Race 8.pdf"
+    }]
+}, {
+    "category": "SB 20",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 SB20 Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 SB20 Results _Day 1_.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 SB20 Results Day 2 overall.pdf"
+    }, {
+        "name": "Day 3 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 SB20 Results Day 3 overall.pdf"
+    }]
+}, {
+    "category": "J/24",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 J24 Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 J24 Results _Day 1_.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 J24 Results Day 2 overall.pdf"
+    }, {
+        "name": "Day 3 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 J24 Results Day 3 overall.pdf"
+    }]
+}, {
+    "category": "PY",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results overall.pdf"
+    }, {
+        "name": "Race 1",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 1.pdf"
+    }, {
+        "name": "Race 2",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 2.pdf"
+    }, {
+        "name": "Race 3",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 3.pdf"
+    }, {
+        "name": "Race 4",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 4.pdf"
+    }, {
+        "name": "Race 5",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 5.pdf"
+    }, {
+        "name": "Race 6",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 6.pdf"
+    }, {
+        "name": "Race 7",
+        "location": "./assets/results/results_2015/18WCSR2015 PY Results Race 7.pdf"
+    }]
+}, {
+    "category": "Trimaran",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results overall.pdf"
+    }, {
+        "name": "Race 1",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 1.pdf"
+    }, {
+        "name": "Race 2",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 2.pdf"
+    }, {
+        "name": "Race 3",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 3.pdf"
+    }, {
+        "name": "Race 4",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 4.pdf"
+    }, {
+        "name": "Race 5",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 5.pdf"
+    }, {
+        "name": "Race 6",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 6.pdf"
+    }, {
+        "name": "Race 7",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 7.pdf"
+    }, {
+        "name": "Race 8",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 8.pdf"
+    }, {
+        "name": "Race 9",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 9.pdf"
+    }, {
+        "name": "Race 10",
+        "location": "./assets/results/results_2015/18WCSR2015 Trimaran Results Race 10.pdf"
+    }]
+}, {
+    "category": "Novice (Men)",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.0 Novice Men Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.0 Novice Men Results _Day 1_.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.0 Novice Men Results _Day 2_.pdf"
+    }]
+}, {
+    "category": "Novice (Women)",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.0 Novice Women Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.0 Novice Women Results _Day 1_.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.0 Novice Women Results _Day 2_.pdf"
+    }]
+}, {
+    "category": "Intermediate (Men)",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 5.5 Int Men Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 5.5 Int Men Results _day1_.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 5.5 Int Men Results Day 2 overall.pdf"
+    }]
+}, {
+    "category": "Intermediate (Women)",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.7 Int Women Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.7 Int Women Results Day 1.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 4.7 Int Women Results Day 2.pdf"
+    }]
+}, {
+    "category": "Intermediate (Mixed)",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 6.2 Int Mixed Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 6.2 Int Mixed Results Day 1.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 6.2 Int Mixed Results Day 2.pdf"
+    }]
+}, {
+    "category": "RSOne",
+    "results": [{
+        "name": "Overall Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 7.8 RSOne Results overall.pdf"
+    }, {
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 7.8 RSOne Results _Day 1_.pdf"
+    }, {
+        "name": "Day 2 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 7.8 RSOne Results Day 2 overall.pdf"
+    }]
+}, {
+    "category": "Access 2.3",
+    "results": [{
+        "name": "Day 1 Race Results",
+        "location": "./assets/results/results_2015/18WCSR2015 Access 2.3 Results _Day1_.pdf"
+    }]
+}]

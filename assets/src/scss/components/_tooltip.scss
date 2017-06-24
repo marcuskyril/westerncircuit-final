@@ -1,0 +1,58 @@
+.callout-content {
+  display: none;
+}
+.qtip-default {
+  border: 0 none;
+  background-color: transparent;
+  color: #999;
+  font-size: 14px;
+  margin-top: 18px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 12px 10px;
+    border-color: transparent transparent $white transparent;
+    z-index: 10;
+
+    @include grid-media($lg-grid) {
+      left: auto;
+      right: 50px;
+    }
+  }
+}
+.qtip-content {
+  padding: 20px 20px 6px;
+  background-color: #FFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+
+  h5 {
+    font-family: $font-pri;
+    font-size: 16px;
+    color: $caption-grey;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  p {
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+
+  strong {
+    font-weight: 400;
+    color: $caption-grey;
+  }
+
+  .btn {
+    width: 100%;
+    font-weight: normal;
+  }
+}
