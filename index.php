@@ -19,8 +19,8 @@ $routes = array(
               );
 
 if(isset($routes[$request_uri[0]])) {
-  require './app/view/'.$routes[$request_uri[0]].'.php';
+  require_once('./app/view/'.$routes[$request_uri[0]].'.php');
 } else {
   header('HTTP/1.0 404 Not Found');
-  require './app/view/404.php';
+  require_once('./app/view/404.php');
 }
